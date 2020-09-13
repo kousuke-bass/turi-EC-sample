@@ -1,0 +1,29 @@
+/*TOPスライダー*/
+.top-slider-wrap{
+  margin:10px 0;
+}
+
+.top-slider.inner{
+  width:auto;
+}
+
+.slick-slide img{
+  width:95%;
+  height:auto;
+}
+
+.slick-dotted.slick-slider {
+  margin: 60px 0;
+}
+
+/*スライダー　スマホ*/
+@media screen and (max-width:768px){
+
+  .top-slider img{
+    width:100%;
+  }
+
+  .top-slider.inner{
+    margin:0 0;
+  }
+}

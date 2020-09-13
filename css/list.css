@@ -1,0 +1,175 @@
+.contents{
+margin-top:140px;
+}
+
+/*リスト 共通　スマホ*/
+@media screen and (max-width:768px){
+  .contents{
+  margin-top:80px;
+  }
+}
+
+
+.list-area{
+  margin:60px auto 60px auto;
+  overflow: hidden;
+}
+
+/*リスト　スマホ*/
+@media screen and (max-width:768px){
+  .list-area{
+    width:100%;
+    margin:50px  30px ;
+    overflow: hidden;
+  }
+}
+
+.sidebar{
+  float:left;
+  width:200px;
+  border:2px solid black;
+  text-align: center;
+  align-items:center;
+  padding:10px 10px;
+  margin-right:80px;
+  margin-top: 80px;
+  background-color: rgb(119,136,153,0.2);
+  z-index:100;
+}
+
+.sidebar-inner{
+  padding:10px 0;
+  margin-bottom:30px;
+}
+
+
+
+.sidebar-title{
+  font-size:20px;
+  font-weight: bold;
+  font-family: 'HanziPen SC',sans-serif;
+  border-bottom: 2px solid black;
+
+}
+
+.sidebar-brand li:nth-child(2){
+  font-size:19px;
+  font-weight: bold;
+}
+
+.sidebar-brand li:nth-child(8){
+  font-size:19px;
+  font-weight: bold;
+}
+
+.sidebar-list li:nth-child(n+4){
+  display: none;
+}
+
+.sidebar-body{
+margin-top:10px;
+}
+
+.sidebar-list li{
+  padding:10px 0;
+  font-family: 'HanziPen SC','Andale Mono',sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.price-select-wrap{
+  position: relative;
+  border:1px solid #bbb;
+  border-radius:2px;
+  padding:10px;
+  background: #fff;
+}
+
+.price-select-wrap:after{
+  position:absolute;
+  top:17px;
+  right:10px;
+  width:0;
+  height:0;
+  padding:0;
+  content:"";
+  border-left:6px solid transparent;
+   border-right:6px solid transparent;
+   border-top:6px solid #666;
+   pointer-events:none;
+}
+
+/*サイドバー　スマホ*/
+@media screen and (max-width:768px){
+  .sidebar{
+  float:none;
+  display: block;
+  width:100%;
+  margin-top: 20px;
+  }
+
+  .sidebar-title{
+    font-size:30px;
+  }
+
+  .sidebar-title::after{
+    content: "▼";
+  }
+
+  .sidebar-title.is-active::after{
+    content: "-";
+  }
+
+  .sidebar-body{
+  margin-top:10px;
+  }
+
+  .sidebar-body{
+    display: none;
+  }
+  /*クリックしたらis-activeがついて表示*/
+
+  .price-trigger{
+display: none;
+  }
+/*クリックしたらis-activeがついて表示*/
+}
+
+
+.list-area .c-section{
+float:left;
+width:calc(100% - 200px - 80px);
+}
+
+
+/*タイトルの下線を消している*/
+.list-area .c-section-head h2{
+border-bottom: 0px solid black !important;
+margin-top: 80px;
+}
+
+.c-section{
+  margin:0 auto !important;
+}
+
+.list-title{
+  font-size:40px;
+  font-weight: bold;
+font-family: 'HanziPen SC',sans-serif;
+
+}
+
+/*c-セクション　スマホ*/
+@media screen and (max-width:768px){
+
+
+  .list-area .c-section{
+  float:none;
+  width:calc(100% - 80px);
+  }
+
+
+  .c-section{
+    margin:0 auto !important;
+  }
+}
