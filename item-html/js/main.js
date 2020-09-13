@@ -391,8 +391,8 @@ if(page_type == 'page-detail'){
   });
 
 //拡大画像
-$('#data-image').attr('src',`./image/item/${item_detail['id']}.jpg`);
-$('#data-image').attr('data-zoom-image', `./image/item/${item_detail['id']}_l.jpg`);
+$('#data-image').attr('src',`../item/${item_detail['id']}.jpg`);
+$('#data-image').attr('data-zoom-image', `../item/${item_detail['id']}_l.jpg`);
 
 //NEWの取り外し
   if(!item_detail['new']){
