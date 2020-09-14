@@ -22,8 +22,8 @@ delate_dom='<div class="cart-delate"><img src="../image/icon_delete.svg"></div>'
  }
   items.forEach(function(item,index){
     html_template+=`<li class="item" data-item-id="${item['id']}">
-        <a href="item-html/index.html?id=${item['id']}">
-          <div class="item-cap"><img src="./item/${item['id']}.jpg" loading="lazy"></div>
+        <a href="index.html?id=${item['id']}">
+          <div class="item-cap"><img src="../item/${item['id']}.jpg" loading="lazy"></div>
           <div class="item-info">
             <h3 class="item-name">${item['name']}</h3>
             <h3 class="item-text">${item['text']}</h3>
