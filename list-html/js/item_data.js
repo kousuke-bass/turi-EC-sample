@@ -1,14 +1,5 @@
 const item_data = [
   {
-    'id':1,
-    'name':'クランク',
-    'category':'バス釣り',
-    'price':500,
-    'text':'昔ながらの王道クランクです!初心者向けです!',
-    'brand':'クランク',
-    'new':false,
-  },
-  {
     'id':2,
     'name':'スプーン',
     'category':'マス釣り',
@@ -153,15 +144,6 @@ const item_data = [
     'new':true,
   },
   {
-    'id':18,
-    'name':'バイブレーション',
-    'category':'バス釣り',
-    'price':800,
-    'text':'超派手なカラー！かなりのアピール力を持ったルアーです！',
-    'brand':'バイブレーション',
-    'new':false,
-  },
-  {
     'id':19,
     'name':'ミノー',
     'category':'海釣り',
@@ -169,15 +151,6 @@ const item_data = [
     'text':'かなりの深場まで潜り、深場の魚を刈りとります',
     'brand':'ミノー',
     'new':true,
-  },
-  {
-    'id':20,
-    'name':'ミノー',
-    'category':'海釣り',
-    'price':1200,
-    'text':'マッチ・ザ・ベイトのカラーです！魚を惑わします！',
-    'brand':'ミノー',
-    'new':false,
   },
   {
     'id':21,
@@ -340,15 +313,6 @@ const item_data = [
     'text':'有名メーカーのクランクです！',
     'brand':'クランク',
     'new':false,
-  },
-  {
-    'id':39,
-    'name':'ノイジー',
-    'category':'バス釣り',
-    'price':800,
-    'text':'バスにはもちろん、ナマズにも使えます',
-    'brand':'トップウォーター',
-    'new':true,
   },
   {
     'id':40,
