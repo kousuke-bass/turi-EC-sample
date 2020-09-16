@@ -146,6 +146,7 @@ width:calc(100% - 200px - 80px);
 .list-area .c-section-head h2{
 border-bottom: 0px solid black !important;
 margin-top: 80px;
+border-bottom: 2px solid black;
 }
 
 .c-section{
