@@ -316,13 +316,9 @@ left:16%;
 .controls{
 position:absolute;
 top: 60%;
-right:100%;
+right:16%;
 z-index: 100;
 transition: all 0.3s;
-}
-
-.controls.is-active{
-right:16%;
 }
 
 .controls img{
