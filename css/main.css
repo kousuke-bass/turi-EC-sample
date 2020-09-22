@@ -293,14 +293,14 @@ margin: 0 0;
 }
 
 .header-right.is-active{
-right:-25%;
+right:-20%;
 }
 
 .header-list{
 justify-content:center;
 position: fixed;
 top:20%;
-left:20%;
+left:16%;
 }
 
 .header-list li{
