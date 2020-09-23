@@ -161,9 +161,9 @@ align-items:center;
 }
 
 .controls{
-position:absolute;
-top:0%;
-right:0%;
+position: absolute;
+top:0;
+right:0;
 }
 
 .controls img{
@@ -314,20 +314,26 @@ left:16%;
 }
 
 .controls{
-position:absolute;
-top: 60%;
-right:16%;
+position:fixed;
+top:30%;
+right:120%;
 z-index: 100;
 transition: all 0.3s;
 }
 
+.controls.is-active{
+  right:43%;
+}
+
+
 .controls img{
-width:20%;
+width:50px;
+margin: 0 0;
 }
 
 .cart-batch{
-top:30%;
-right:70%;
+top:0;
+right:-25%;
 }
 
 
