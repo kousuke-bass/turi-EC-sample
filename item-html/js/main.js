@@ -239,8 +239,13 @@ $('.word-search').focus(function(){
 $('.controls-cart').on('click',function(e){
   e.preventDefault();
  $('.modal-wrap').fadeToggle();
- $('.header-right,.controls').removeClass('is-active');
-
+ $('.header-right,.controls,.menu-btn').removeClass('is-active');
+ let menu_text = $('.menu-btn').hasClass('is-active');
+ if(menu_text){
+   $('.menu-btn').text('CLOSE');
+ }else{
+   $('.menu-btn').text('MENU');
+ }
 });
 
 $('.modal-close, .modal-wrap').on('click',function(e){
