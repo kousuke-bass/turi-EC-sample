@@ -513,7 +513,6 @@ display: flex;
 .thumnail-list .item{
   width: calc(100%/2 - 10px);
   padding-bottom: 20px;
-  border-bottom: 1px solid #f2f2f2;
   margin-bottom: 30px;
 }
 .thumnail-list .item a{
@@ -574,7 +573,7 @@ font-size:15px;
 }
 
 .brand-title h2{
-  color:white;
+  color:black;
   border-bottom: 2px solid white;
 }
 
@@ -653,7 +652,7 @@ font-size:15px;
   }
 
   .footer-link li a{
-    font-size:10px;
+    font-size:8px;
   }
 }
 
